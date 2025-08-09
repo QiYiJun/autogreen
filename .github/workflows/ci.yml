@@ -10,6 +10,9 @@ on:
 jobs:
   autogreen:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
@@ -27,6 +30,6 @@ jobs:
       - name: Commit and push changes
         run: |
           git commit -m "update changes.txt"
-          git push "https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/QiYiJun/autogreen.git" HEAD:main
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
