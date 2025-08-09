@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "53 13 * * *"
+    - cron: "55 13 * * *"
 
 jobs:
   autogreen:
@@ -27,6 +27,6 @@ jobs:
       - name: Commit and push changes
         run: |
           git commit -m "update changes.txt"
-          git push
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
