@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "43 8,10,13,14,16 * * *"
+    - cron: "52 13 * * *"
 
 jobs:
   autogreen:
@@ -14,11 +14,17 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
 
-      - name: Auto green
+      - name: Set up Git configuration
         run: |
           git config --local user.email "1497055242@qq.com"
           git config --local user.name "Qi_YiJun"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git pull --rebase
-          git commit --allow-empty -m "a commit a day keeps your girlfriend away"
+
+      - name: Make changes
+        run: |
+          echo "Changes made at $(date)" >> changes.txt
+          git add changes.txt
+
+      - name: Commit and push changes
+        run: |
+          git commit -m "update changes.txt"
           git push
