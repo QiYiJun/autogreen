@@ -4,7 +4,7 @@
 
 ## 原理
 
-> 我找了一圈同类项目，找不到 Use this template 按钮，都没把仓库设置为模板仓库的，所以我只能自己写了
+<b style="color:lightblue">(σ｀д′)σ 我找了一圈同类项目，找不到 Use this template 按钮，都没把仓库设置为模板仓库的，所以我只能自己写了</b>
 
 使用 GitHub Actions 的定时任务功能，每隔一段时间自动执行 `jobs` 任务合集，就是 [ci.yml](https://github.com/QiYiJun/autogreen/blob/main/.github/workflows/ci.yml) 文件里的那个`jobs`）
 
@@ -14,7 +14,7 @@
 
 ## 使用
 
-> <b style="color:red">是的，这次我自己把仓库设置为模板仓库了，你可以直接用了，记得看下面需要修改的内容</b>
+<b style="color:lightgreen">(๑•̀ㅂ•́)و✧ 是的，这次我自己把仓库设置为模板仓库了，你可以直接用了，记得看下面需要修改的内容</b>
 
 - 点击右上角 **Use this template** 按钮使用本 GitHub 仓库模板<br/>
 - ⏲️定时 [ci.yml 文件的第 8 行](https://github.com/QiYiJun/autogreen/blob/main/.github/workflows/ci.yml#L8) 你可以自定义 `定时规则`
