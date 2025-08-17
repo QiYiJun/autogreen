@@ -19,9 +19,9 @@
 - 点击右上角 **Use this template** 按钮使用本 GitHub 仓库模板<br/>
 - ⏲️定时 [ci.yml 文件的第 8 行](https://github.com/QiYiJun/autogreen/blob/main/.github/workflows/ci.yml#L8) 你可以自定义 `定时规则`
 - 📋信息 [ci.yml 文件的第 22、23 行](https://github.com/QiYiJun/autogreen/blob/main/.github/workflows/ci.yml#L22-L23) 填你自己的 `GitHub账号邮箱` 和 `昵称`
-- **:warning: 千万不要 fork，因为 fork 项目的动态并不会让你变绿 :warning:**
-- **:warning: 时间是 UTC 时间，所以请不要问为什么到点了没跑**
-- **:warning: 还有 Actions 得排队，毕竟不是在自己机器上跑的，到点没跑的等个十几分钟再去看 :warning:**
+- **⚠️千万不要 fork，因为 fork 项目的动态并不会让你变绿**
+- **⚠️定时规则的时间是 UTC 时间，所以请不要问为什么到点了没跑**
+- **⚠️还有 Actions 得排队，毕竟不是在自己机器上跑的，到点没跑的等个十几分钟再去看**
 
 ## 定时
 
