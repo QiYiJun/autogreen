@@ -54,4 +54,4 @@
 
 ## License
 
-[auto-green](https://github.com/QiYiJun/autogreen) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[autogreen](https://github.com/QiYiJun/autogreen) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
