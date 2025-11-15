@@ -14,7 +14,7 @@
 
 ## 使用
 
-**✨(๑•̀ㅂ•́)و✨ 好消息！这个仓库已设置为模板仓库，你可以直接使用了！以下是使用方法和需要修改的内容**
+**✨(๑•̀ㅂ•́)و✨ 好消息！[这个仓库](https://github.com/QiYiJun/autogreen) 已设置为模板仓库，你可以直接使用了！以下是使用方法和需要修改的内容**
 
 - 点击右上角 **Use this template** 按钮使用本 GitHub 仓库模板<br/>
 - ⏲️定时 [ci.yml 文件的第 8 行](https://github.com/QiYiJun/autogreen/blob/main/.github/workflows/ci.yml#L8) 你可以自定义 `定时规则`
